@@ -14,26 +14,37 @@
       
     <title>Materialize CSS</title>
     <style>
-        .box{
-            height: 200px;
+        .col > div{
+            background: lightblue;
+            height: 120px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h4 class="center-align">Buttons</h4>
-        <a href="#" class="btn waves-effect waves-dark" >Normal button</a>
-        <a href="#" class="btn-small">Small button</a>
-        <a href="#" class="btn-large">Large button</a>
-        <a href="#" class="btn indigo waves-effect waves-light">Indigo button</a>
-        <a href="#" class="btn disabled">Disabled button</a>
+        <h4 class="center-align">Shadows & Depth</h4>
+        <div class="row">
+            <div class="col s8 m4 l2">
+                <div></div>
+            </div>
+            <div class="col s8 m4 l2">
+                <div class="z-depth-1"></div>
+            </div>
+            <div class="col s8 m4 l2">
+                <div class="z-depth-2"></div>
+            </div>
+            <div class="col s8 m4 l2">
+                <div class="z-depth-3"></div>
+            </div>
+            <div class="col s8 m4 l2">
+                <div class="z-depth-4"></div>
+            </div>
+            <div class="col s8 m4 l2">
+                <div class="z-depth-5"></div>
+            </div>
+        </div>
 
-        <h4 class="center-align">Floating Button</h4>
-        <a href="#" class="btn-floating pink pulse"></a>
-
-        <h4 class="center-align">Other Elements</h4>
-        <div class="btn">I am a div tag</div>
     </div>    
 </body>
 </html>
